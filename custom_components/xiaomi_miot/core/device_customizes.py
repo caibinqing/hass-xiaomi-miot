@@ -2331,7 +2331,7 @@ DEVICE_CUSTOMIZES = {
         ],
     },
     '*.airpurifier.*': {
-        'switch_properties': 'air_purifier.on,alarm.alarm,anion,uv',
+        'switch_properties': 'alarm.alarm,anion,uv',
         'sensor_properties': 'relative_humidity,pm2_5_density,temperature,filter_life_level',
         'chunk_coordinators': [
             {'interval': 10, 'props': 'on,mode,fan_level'},
